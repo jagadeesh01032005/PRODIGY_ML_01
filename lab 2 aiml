@@ -1,0 +1,265 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNFEYCh7REVxpj8vfQ4Hdrn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jagadeesh01032005/PRODIGY_ML_01/blob/main/lab%202%20aiml\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "a = np.array([1, 2, 3, 4, 5])\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zHZAcYKCFfoE",
+        "outputId": "95b9ed6e-a902-48d3-e8e2-b73b55d93fdc"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "b = pd.array([1, 3, 5, 6, 8])\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ScU3sVg5Grly",
+        "outputId": "d56d081a-2e63-4803-b6f7-cb320acdd5cd"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<IntegerArray>\n",
+            "[1, 3, 5, 6, 8]\n",
+            "Length: 5, dtype: Int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "list = np.array([1, 2, 3, 4, 5])\n",
+        "print(list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CECbX16bHG_1",
+        "outputId": "7b31513e-1b3f-43b9-da97-0b39d2c137c1"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "list = pd.array([1, 2, 3, 4, 5,6])\n",
+        "print(list)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4ZU-6a-MHgSk",
+        "outputId": "cc0e5814-82f3-412b-993b-e4013d970b8d"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<IntegerArray>\n",
+            "[1, 2, 3, 4, 5, 6]\n",
+            "Length: 6, dtype: Int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "arr = np.array([1, 2, 3, 4, 5])\n",
+        "print(arr)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "riYc3v3aISJ4",
+        "outputId": "f7446acd-f419-462c-80d3-45c75dff4658"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "arr = pd.array([1, 2, 3, 4, 5])\n",
+        "print(arr)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RreZNKM3Ih-P",
+        "outputId": "1e33eb65-bb96-4134-cbe6-3765549187e9"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<IntegerArray>\n",
+            "[1, 2, 3, 4, 5]\n",
+            "Length: 5, dtype: Int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "arr = np.array([10, 20, 30, 40, 50])\n",
+        "\n",
+        "mult_np = arr * 3\n",
+        "print(mult_np)\n",
+        "\n",
+        "div_np = arr / 2\n",
+        "print(div_np)\n",
+        "\n",
+        "pow_np = arr ** 3\n",
+        "print(pow_np)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r-bnd0nkJP4X",
+        "outputId": "5772aed7-8dae-4419-dd05-f87eee0c90cc"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[ 30  60  90 120 150]\n",
+            "[ 5. 10. 15. 20. 25.]\n",
+            "[  1000   8000  27000  64000 125000]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "arr = pd.array([10, 20, 30, 40, 50])\n",
+        "\n",
+        "mult_pd = arr *5\n",
+        "print(mult_pd)\n",
+        "\n",
+        "div_pd = arr / 2\n",
+        "print(div_pd)\n",
+        "\n",
+        "pow_pd = arr ** 3\n",
+        "print(pow_pd)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n_Bh2cBVJ2xb",
+        "outputId": "7373bc56-d2a0-40ac-9fb2-c89c615ade19"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<IntegerArray>\n",
+            "[50, 100, 150, 200, 250]\n",
+            "Length: 5, dtype: Int64\n",
+            "<FloatingArray>\n",
+            "[5.0, 10.0, 15.0, 20.0, 25.0]\n",
+            "Length: 5, dtype: Float64\n",
+            "<IntegerArray>\n",
+            "[1000, 8000, 27000, 64000, 125000]\n",
+            "Length: 5, dtype: Int64\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
